@@ -58,9 +58,14 @@ button:focus-visible {
   margin-left: 15px;
   padding: 15px;
   background-color: var(--bg-color);
+  color: black;
 }
 
 .buttons {
   align-self: center;
   text-align: center;
+}
+
+.back_button{
+  float: left;
 }

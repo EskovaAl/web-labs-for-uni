@@ -21,6 +21,9 @@ const LabList = () => {
         <li>
           <Link to="/lab5">5 лабораторная</Link>
         </li>
+        <li>
+          <Link to="/lab6">6 лабораторная</Link>
+        </li>
       </ul>
     </div>
   );
