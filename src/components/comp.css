@@ -53,12 +53,12 @@ button:focus-visible {
   align-self: center;
   border: 1px solid black;
   border-radius: 15px;
-  width: 70%;
+  width: 100%;
   height: inherit;
   margin-left: 15px;
+  margin-right: 15px;
   padding: 15px;
   background-color: var(--bg-color);
-  color: black;
 }
 
 .buttons {

@@ -8,7 +8,6 @@ import ClearIcon from '@mui/icons-material/Clear';
 import EditIcon from '@mui/icons-material/Edit';
 
 
-
 const User_table = () => {
     const [data, setData] = useState([]);
 
@@ -36,7 +35,7 @@ const User_table = () => {
                 .catch((error) => {
                     console.log(error);
                 });
-            alert("Удален пользователь с ID = ", data.id);
+            alert("Пользователь удален");
     
         }
         else {
@@ -45,7 +44,7 @@ const User_table = () => {
     };
     return (
         <div>
-            <TableContainer style={{ maxHeight: 400 }}>
+            <TableContainer style={{ maxHeight: 400, maxWidth:370 }}>
                 <Table stickyHeader>
                     <TableHead>
                         <TableRow>

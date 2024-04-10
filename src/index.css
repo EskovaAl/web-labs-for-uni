@@ -65,10 +65,10 @@ button#test_button {
   font-size: 4em;
 }
 
-/* :root {
+:root {
   color: #213547;
   background-color: var(--main-background-color);
-} */
+}
 
 
 button {

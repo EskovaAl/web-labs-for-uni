@@ -3,6 +3,7 @@ import "./comp.css";
 import { AppBar, Toolbar, Typography, Stack, Switch } from "@mui/material";
 import { ThemeContext } from "../providers/ThemeProvider";
 import { DarkMode, LightMode } from "@mui/icons-material";
+import TemporaryDrawer from "./menu_drawer"
 
 const Header = () => {
   const [theme, setTheme] = useContext(ThemeContext);
@@ -14,6 +15,7 @@ const Header = () => {
     <div className="header_main">
       <AppBar position="static">
         <Toolbar>
+        <TemporaryDrawer/>
           <Typography fontSize={36} flexGrow={2} fontFamily={"Cambria Math"}>
             Мой Гениальный сайт
           </Typography>

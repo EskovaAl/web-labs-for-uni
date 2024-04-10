@@ -1,27 +1,6 @@
 {
   "users": [
     {
-      "id": "5188",
-      "surname": "tgtgtg",
-      "name": "Тест",
-      "email": "fg@mtl.ty",
-      "password": "344"
-    },
-    {
-      "id": "a519",
-      "surname": "grgrgrg",
-      "name": "ddddd",
-      "email": "gthth@hn.y",
-      "password": "567"
-    },
-    {
-      "id": "6fe0",
-      "surname": "йцук",
-      "name": "енгш",
-      "email": "1@ma.t",
-      "password": "123"
-    },
-    {
       "id": "84b2",
       "surname": "asdf",
       "name": "ghjk",
@@ -41,6 +20,13 @@
       "name": "axios",
       "email": "ax@g.ru",
       "password": "9999"
+    },
+    {
+      "id": "48ca",
+      "surname": "Новый",
+      "name": "Тестовый",
+      "email": "hfhd@lkg.ru",
+      "password": "gbgbgb"
     }
   ]
 }
