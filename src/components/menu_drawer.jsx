@@ -69,6 +69,14 @@ export default function TemporaryDrawer() {
                         <ListItemText primary="Лабораторная 6" />
                     </ListItemButton>
                 </ListItem>
+                <ListItem key="lab7" disablePadding>
+                    <ListItemButton component={RouterLink} to="/lab7">
+                        <ListItemIcon>
+                            <InboxIcon />
+                        </ListItemIcon>
+                        <ListItemText primary="Лабораторная 7" />
+                    </ListItemButton>
+                </ListItem>
             </List>
         </Box>
     );

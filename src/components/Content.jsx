@@ -7,6 +7,7 @@ import Lab4 from "../pages/lab4";
 import Lab5 from "../pages/lab5";
 import Lab6 from "../pages/lab6";
 import User_update from "./user_update";
+import Lab7 from "../pages/lab7";
 
 
 const Content = () => {
@@ -22,6 +23,7 @@ const Content = () => {
           <Route path="/lab5" element={<Lab5 />} />
           <Route path="/lab6" element={<Lab6 />} />
           <Route path="/user_update/:id" target ="_blank" element={<User_update />} />
+          <Route path="/lab7" element={<Lab7 />} />
         </Routes>
       </div>
 

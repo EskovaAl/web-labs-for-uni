@@ -44,7 +44,7 @@ const User_table = () => {
     };
     return (
         <div>
-            <TableContainer style={{ maxHeight: 400, maxWidth:370 }}>
+            <TableContainer style={{ maxHeight: 400}}>
                 <Table stickyHeader>
                     <TableHead>
                         <TableRow>
@@ -75,6 +75,7 @@ const User_table = () => {
                     </TableBody>
                 </Table>
             </TableContainer>
+            
         </div>
     );
 }
