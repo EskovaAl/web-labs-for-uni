@@ -70,11 +70,11 @@ export default function TemporaryDrawer() {
                     </ListItemButton>
                 </ListItem>
                 <ListItem key="lab7" disablePadding>
-                    <ListItemButton component={RouterLink} to="/lab7">
+                    <ListItemButton component={RouterLink} to="/lab8">
                         <ListItemIcon>
                             <InboxIcon />
                         </ListItemIcon>
-                        <ListItemText primary="Лабораторная 7" />
+                        <ListItemText primary="Лабораторная 8" />
                     </ListItemButton>
                 </ListItem>
             </List>
